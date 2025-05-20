@@ -11,7 +11,6 @@ set(SOURCES
 
 set(FORMATTER_LIB_DIR "../formatter_lib")
 
-add_subdirectory(${FORMATTER_LIB_DIR} formatter_lib_build)
 
 # Создаем библиотеку formatter_ex
 add_library(formatter_ex STATIC ${SOURCES})
